@@ -12,11 +12,11 @@ export default function Header(props: HeaderProps): JSX.Element {
   return (
     <div id="header">
       <nav>
-        <div>TODO: This is A Header Example! </div>
-        <div>
+        <div>Welcome to the Fall 2023 React Team page! </div>
+        {/* <div>
           Text Displayed is:
           {props.section}
-        </div>
+        </div> */}
         {/* This is an example of using interfaces and enums! */}
       </nav>
     </div>
