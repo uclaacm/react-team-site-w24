@@ -1,4 +1,4 @@
-# Teach LA React Team site W24!
+# Teach LA React Team site w24!
 
 ![Production Build](https://github.com/uclaacm/teach-la-react-starter-barebones/workflows/Production%20Build/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
