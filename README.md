@@ -1,4 +1,4 @@
-# Teach LA React Team site F23!
+# Teach LA React Team site W24!
 
 ![Production Build](https://github.com/uclaacm/teach-la-react-starter-barebones/workflows/Production%20Build/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -16,8 +16,8 @@ We'll use a really common Node.js project workflow + Yarn!
 First, let's clone our repository, and install all of our yarn dependencies:
 
 ```
-git clone https://github.com/uclaacm/react-team-site-f23.git
-cd react-team-site-f23
+git clone https://github.com/uclaacm/react-team-site-w24.git
+cd react-team-site-w24
 ```
 
 The instructions to install Node.js will be different based on which platform you're running. It's heavily advised to install your Node.js using NVM (Node Version Manager) because it's easy to manage a standardized version and update it as needed.
@@ -62,7 +62,7 @@ yarn run build
 
 ## Contribution Workflow
 
-Thanks for your interest in contributing to react-team-site-f23! ❤️
+Thanks for your interest in contributing to react-team-site-w24! ❤️
 
 Here's a quick guide on how to get started.
 
@@ -71,7 +71,7 @@ Here's a quick guide on how to get started.
 3. Beep boop away!
 4. **Before you push**, make sure your app runs with `yarn start`. If there are any errors, our CI/CD service will **reject your build**.
 5. Once you're ready, stage and commit your changes!
-6. Make a [pull request](https://github.com/uclaacm/react-team-site-f23/pulls) with your changes, and let someone on your project team know.
+6. Make a [pull request](https://github.com/uclaacm/react-team-site-w24/pulls) with your changes, and let someone on your project team know.
    a. Netlify has a neat feature called "Deploy Previews" that give you a link to preview your changes; [see the blog post](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews-in-netlify/) for more info!
 7. If your code passes code review, then we can **squash and merge** it into `main`. Congratulations! If you'd like, it's now safe to delete your branch/fork.
 
