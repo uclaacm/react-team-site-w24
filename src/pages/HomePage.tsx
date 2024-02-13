@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
     const names = ["Anooshkha", "Person2", "Person3", "Person4", "Person5", "Person6", "Person7", "Person8", "Person9", "Person10"];
     return names.map((name, index) => (
       <Link to={`/${name}Page`} key={index} style={{ textDecoration: 'none' }}>
-        <button style={{ backgroundColor: '#7EC253', margin: '5px', padding: '10px', borderRadius: '5px', border: 'none', cursor: 'pointer' }}>
+        <button style={{ backgroundColor: '#7EC253', margin: '5px', padding: '20px', borderRadius: '10px', border: 'none', cursor: 'pointer' }}>
           {name}'s Page
         </button>
       </Link>
