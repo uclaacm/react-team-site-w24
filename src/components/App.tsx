@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 //import AppWrapper from './shared/AppWrapper';
 import HomePage from '../pages/HomePage';
 import AnooshkhaPage from '../pages/AnooshkhaPage';
+import NhanPage from '../pages/Nhan';
 // Import other person pages here
 
 function App(): JSX.Element {
@@ -11,6 +12,7 @@ function App(): JSX.Element {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/AnooshkhaPage" element={<AnooshkhaPage />} />
+          <Route path="/NhanPage" element={<NhanPage />} />
           {/* Add routes for other person pages */}
           {/* For example:
           <Route path="/Person2Page" element={<Person2Page />} />
