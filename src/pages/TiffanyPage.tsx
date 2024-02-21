@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import TiffanyImage from '/Users/tiffanywang/Desktop/react-team-site-w24/src/assets/images/tiffanydog.png';
+import TiffanyImage from '../assets/images/tiffanydog.png';
 
 const TiffanyPage: React.FC = () => {
   return (
