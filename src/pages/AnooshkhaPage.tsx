@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AnooshkhaImage from '../assets/images/anooshkha.png';
 
 const AnooshkhaPage = () => {
   return (
     <div style={pageStyle}>
       <h1>Welcome to Anooshkha's Page</h1>
       <div style={containerStyle}>
-        <img src="../assets/images/anooshkha.svg" alt="Anooshkha" style={imageStyle} />
+        <img src={AnooshkhaImage} alt="Anooshkha" style={imageStyle} />
         <div style={contentStyle}>
           <h2>Facts About Anooshkha</h2>
           <p><strong>Home Town:</strong> Bay Area</p>
