@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AnooshkhaPage = () => {
   return (
@@ -11,6 +12,7 @@ const AnooshkhaPage = () => {
           <p><strong>Home Town:</strong> Bay Area</p>
           <p><strong>Major:</strong> Math of Comp</p>
           <p><strong>Fun Fact:</strong> My favorite color is green!</p>
+          <Link to="/" style={buttonStyle}>Back to home page</Link>
         </div>
       </div>
     </div>
@@ -21,7 +23,7 @@ export default AnooshkhaPage;
 
 const pageStyle = {
   padding: '20px',
-  backgroundColor: '#a7c957', //https://coolors.co/palettes/trending
+  backgroundColor: '#a7c957', // https://coolors.co/palettes/trending
   minHeight: '100vh',
   display: 'flex',
   flexDirection: 'column',
@@ -45,4 +47,14 @@ const imageStyle = {
 const contentStyle = {
   color: '#333',
   marginTop: '20px',
+};
+
+const buttonStyle = {
+  marginTop: '20px',
+  padding: '10px 20px',
+  backgroundColor: '#333',
+  color: '#fff',
+  border: 'none',
+  borderRadius: '5px',
+  textDecoration: 'none',
 };
