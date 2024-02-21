@@ -24,7 +24,7 @@ export default AnooshkhaPage;
 
 const pageStyle = {
   padding: '20px',
-  backgroundColor: '#a7c957', // https://coolors.co/palettes/trending
+  backgroundColor: '#8ecae6', // https://coolors.co/palettes/trending
   minHeight: '100vh',
   display: 'flex',
   flexDirection: 'column',
