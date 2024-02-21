@@ -7,7 +7,7 @@ const NinaPage = () => {
     <div style={pageStyle}>
       <h1>Welcome to Nina's Page</h1>
       <div style={containerStyle}>
-        <img src={NinaImage} alt="Anooshkha" style={imageStyle} />
+        <img src={NinaImage} alt="Dog" style={imageStyle} />
         <div style={contentStyle}>
           <h2>Facts About Nina</h2>
           <p><strong>Home Town:</strong> Bay Area</p>
@@ -43,6 +43,7 @@ const containerStyle = {
 const imageStyle = {
   width: '200px',
   height: 'auto',
+  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
 };
 
 const contentStyle = {
