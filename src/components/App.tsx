@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import AnooshkhaPage from '../pages/AnooshkhaPage';
 import TiffanyPage from '../pages/TiffanyPage';
+import NinaPage from '../pages/NinaPage';
+import JeffreyPage from '../pages/JeffreyPage';
 // Import other person pages here
 
 function App(): JSX.Element {
@@ -13,11 +15,8 @@ function App(): JSX.Element {
           <Route path="/" element={<HomePage />} />
           <Route path="/AnooshkhaPage" element={<AnooshkhaPage />} />
           <Route path="/TiffanyPage" element={<TiffanyPage />} />
-          {/* Add routes for other person pages */}
-          {/* For example:
-          <Route path="/Person2Page" element={<Person2Page />} />
-          <Route path="/Person3Page" element={<Person3Page />} />
-          */}
+          <Route path="/NinaPage" element={<NinaPage />} />
+          <Route path="/JeffreyPage" element={<JeffreyPage />} />
         </Routes>
     </Router>
   );
